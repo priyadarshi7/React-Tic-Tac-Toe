@@ -1,0 +1,62 @@
+body{
+  background-color: #6b9080;
+  font-family: MainFont;
+
+}
+
+@font-face {
+  font-family: MainFont;
+  src: url(".\assets\text-fonts\AntonSC-Regular.ttf");
+}
+
+/*Header*/
+header{
+  text-align: center;
+  height:80px;
+  font-size:60px;
+}
+
+/*TicTacToe*/
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom:0;
+  gap:1.2vh;
+  height:80svh;
+}
+
+.row{
+  display: flex;
+  gap:1.2vh;
+}
+
+span{
+  color:blueviolet
+}
+
+.box{
+  height:120px;
+  width:120px;
+  background-color: #a4c3b2;
+  border-radius: 16px;
+  color: black;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #87a896;
+}
+
+.reset-btn{
+  height:50px;
+  width:80px;
+  background-color:aliceblue;
+  color:black
+}
